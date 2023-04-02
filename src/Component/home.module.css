@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px rgb(0,255,238);
+
+
+}
+#mainform{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(189, 232, 119),rgb(85, 36, 36));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainform>form{
+    height: 240px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#mainform>form label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainform>form input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color:white
+}
+#mainform>form input:focus{
+    outline: none;
+}
+#btn{
+    height: 30px;
+    width: 150px;
+    background-color: aqua;
+    color: brown;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px white;
+    font-size: medium;
+    font-weight: 700;
+}
+#btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    /* transition: 1s; */
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black ;
+}
+
+#users{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(189, 232, 119),rgb(85, 36, 36));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#card{
+    height: 150px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+#card>table>tr>td{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    /* padding: 2px; */
+
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 188, 239);
+    font-style: italic;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px black ;
+}
+button{
+    height: 18px;
+    width: 60px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    /* font-size: 10px; */
+
+}
+button>a{
+    color: white;
+    text-decoration: none;
+    /* font-size: 10px; */
+}
+button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+button>a:hover{
+    color: black;
+    
+
+}
